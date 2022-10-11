@@ -1,0 +1,9 @@
+export enum PRODUCTS {
+  PHOTOBOOK = "PHOTOBOOK",
+  WALLDECOR = "WALLDECOR",
+}
+
+export enum FRAME_TYPES {
+  SMALL = "SMALL",
+  LARGE = "LARGE",
+}

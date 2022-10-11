@@ -1,0 +1,7 @@
+.div {
+  padding: 1rem;
+}
+
+.div *:not(:last-child) {
+  margin-right: 1rem;
+}

@@ -1,0 +1,5 @@
+.main {
+  padding: 2rem;
+  flex-grow: 10;
+  background-color: rgba(0, 0, 0, 0.1);
+}
