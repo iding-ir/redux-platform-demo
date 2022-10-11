@@ -1,19 +1,20 @@
 import { FrameType } from "../../types";
 
-export interface Size {
+export type Size = {
   width: number;
   height: number;
-}
+};
 
-export interface PhotoBook {
+export type BasicProduct = {
   id: string;
   size: Size;
+};
+
+export type PhotoBook = BasicProduct & {
   pageCount: number;
   coverTitle: string;
-}
+};
 
-export interface WallDecor {
-  id: string;
-  size: Size;
-  fameType: FrameType;
-}
+export type WallDecor = BasicProduct & {
+  frameType: FrameType;
+};

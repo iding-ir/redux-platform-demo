@@ -11,7 +11,7 @@ const defaultPhotoBook: PhotoBook = {
 const defaultWallDecor: WallDecor = {
   id: "1",
   size: { width: 80, height: 200 },
-  fameType: FRAME_TYPES.SMALL,
+  frameType: FRAME_TYPES.SMALL,
 };
 
 export const defaultProducts = {

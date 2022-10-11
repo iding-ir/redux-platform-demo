@@ -18,7 +18,7 @@ export const platformWallDecorReducer = (
     case PLATFORM_CHANGE_WALLDECOR_FRAME:
       return {
         ...state,
-        fameType: action.payload,
+        frameType: action.payload,
       };
 
     default:

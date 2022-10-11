@@ -9,14 +9,14 @@ import Styles from "./styles.module.css";
 export const WallDecorSettings = () => {
   const dispatch = useDispatch();
   const product = useSelector((state: IState<WallDecor>) => state.product);
-  const [frameType, setFrameType] = useState<string>(product.fameType);
+  const [frameType, setFrameType] = useState<string>(product.frameType);
 
   const onSave = () => {
     dispatch(changeWallDecorFrame(frameType));
   };
 
   const onCancel = () => {
-    setFrameType(product.fameType);
+    setFrameType(product.frameType);
   };
 
   const renderSelect = () => {
