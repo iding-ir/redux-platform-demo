@@ -7,7 +7,7 @@ export const ProductSelectors = () => {
   return (
     <nav className={Styles.nav}>
       {Object.values(PRODUCTS).map((product) => (
-        <ProductSelector product={product} />
+        <ProductSelector key={product} product={product} />
       ))}
     </nav>
   );

@@ -21,7 +21,7 @@ export const WallDecorSettings = () => {
 
   const renderSelect = () => {
     return Object.values(FRAME_TYPES).map((frameType) => (
-      <option>{frameType}</option>
+      <option key={frameType}>{frameType}</option>
     ));
   };
 
